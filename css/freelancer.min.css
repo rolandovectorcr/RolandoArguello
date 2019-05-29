@@ -61,13 +61,13 @@
 
  @media (min-width:576px){
    .hero{
-      padding-top: 75px;
+      padding-top: 50px;
       background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bg.jpg);
       background-attachment: fixed;
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
-      height: 100vh
+      
    }
   
    .about{
@@ -80,13 +80,13 @@
  }
 
  .hero{
-   padding-top: 75px;
+   padding-top: 50px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bg.jpg);
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh
+    
  }
 
  .about{
@@ -99,14 +99,32 @@
 
 .quote{
    padding: 15px;
-   background-color: gray;
+   background-color: black;
    opacity: 0.8;
 }
 
+.quote p{
+   font-size: 14px;  
+}
 
  .monse{
    font-family:Montserrat;
  }
+
+ .skill{
+    width:50px;
+    height: 50px;
+ }
+
+.sk{
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+
+.textsk{
+   font-size: 15px;
+   color: silver;
+}
 
  .p{
    font-family:Montserrat
@@ -123,10 +141,6 @@
     object-fit: cover;
  }
 
- .Tecnologies{
-   font-size: 20px;
-   color: black;
-}
 
 .space{
    padding-top: 100px;
