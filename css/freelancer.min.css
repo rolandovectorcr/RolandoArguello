@@ -79,6 +79,17 @@
   }
  }
 
+.cert{
+   width: 100%;
+   margin-bottom: 10px;
+   object-fit: cover;
+}
+
+.exp{
+   background: #1C4851;
+   
+}
+
  .hero{
    padding-top: 50px;
     background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(../img/bg.jpg);
@@ -101,6 +112,14 @@
    padding: 15px;
    background-color: black;
    opacity: 0.8;
+}
+
+.expimg{
+   width: 100%;
+}
+
+.whitebr{
+   border: 1px solid white;
 }
 
 .quote p{
